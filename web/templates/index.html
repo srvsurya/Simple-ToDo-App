@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="https://cdn.tailwindcss.com"></script>
+         <script src="../static/js/script.js" defer></script>
+        <title>ToDo App</title>
+    </head>
+    <body class="bg-black m-10 flex justify-center gap-4">
+        <div class="flex flex-col gap-7">
+            <div class="flex gap-4">
+                <input id="inputText" placeholder="Type out a task" class="rounded-xl p-2">
+                <button id="addBtn" class="rounded-xl bg-white p-4 transform hover:bg-red-400 transition smooth duration-500">Add Task</button>
+            </div>
+
+            <ul id="taskList"></ul>
+        </div>
+
+
+    </body>
+</html>
